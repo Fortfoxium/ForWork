@@ -1,0 +1,130 @@
+
+      html,body{
+        margin: 0%;
+        height: 100%;
+padding: 0%;
+background-color: #282828
+      }
+
+      header {
+        margin: 0%;
+        z-index: 12222;
+      }
+
+      table{
+        text-align: center;
+      }
+
+      .close {
+        color: #5b7594;
+        right: 0% ;
+        text-decoration: none;
+        position: absolute;
+        cursor:pointer;
+        margin: 0 5px ;
+      }
+
+      .close:hover {background: #e6e6ff;}
+
+	    #table_cabinet {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 224%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      
+      	flex:0 0 auto;
+      }
+      #okno_table_cabinet {
+        width: 95%;
+        height: 90%;
+        padding: 10px;
+        border-radius: 5px;
+        color: #2568a7;
+        position: fixed;
+		overflow:auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background: #fff;box-shadow: 0 0 3px 0.1px black;
+      }
+      #table_cabinet:target {display: block;}
+
+	    #text_table_cabinet{
+        position: absolute;
+        padding: 0px;
+        margin: 0px;
+      }
+
+
+
+
+        #polosa{
+          margin: 15px auto; 
+          width:99%; 
+          border-top:2px solid #5b7594;
+        }
+
+        #menu{
+          list-style-type: none;
+          margin: 0;
+          position: absolute;
+          padding: 0;
+        }
+        #menu li{
+          padding: 15px 5px;
+          background-color: rgb(204, 204, 204);
+          box-shadow:none;
+          border: 1px;
+          border-color: black;
+          border-style: dotted;
+          width: 150px;
+        }
+        #menu li:hover{
+          transition: 1s;
+          background-color: rgb(73, 73, 73); 
+        }
+        #menu li a{
+          text-decoration: none;
+          color: red;
+        }
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 5px solid #fff;
+  border-top: 5px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-collapse: collapse; 
+  outline: 3px solid #ffd300;
+  font-size: 15px;
+  background: #fff!important;
+}
+table th {
+  font-weight: bold;
+  padding: 2px;
+  background: #ffd300;
+  width:1%;
+  border: none;
+  font-size: 15px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #ffd300;
+}
+table td {
+  margin: 5px;
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+table tbody tr:nth-child(even){
+  background: #f8f8f8!important;
+}
+table td p{
+  margin: 0px 0px 0px 0px;
+  width: 15px;
+}
